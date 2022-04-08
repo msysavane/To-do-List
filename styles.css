@@ -1,0 +1,55 @@
+body {
+	background: linear-gradient(70deg, #fbd6d2, #a63ec5);
+	text-align: center;
+}
+
+h1 {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 3rem;
+}
+
+h2 {
+	text-decoration: underline;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+ul {
+	font-weight: 400;
+}
+
+button {
+	font-family: "roboto mono";
+	border: 2px solid;
+	background: none;
+	color: #ac075c;
+	padding: 1em 2em;
+	font-size: 1em;
+	transition: border-color 0.2s, color 0.2s, transform 0.2s, box-shadow 0.2s,
+		border-radius 0.2s;
+}
+
+button:hover {
+	border-color: rgb(54, 96, 225);
+	color: white;
+	transform: translateY(-0.25em);
+	box-shadow: 0 0.5em 0.5em -0.4em rgb(54, 96, 225);
+	cursor: pointer;
+	border-radius: 0.6em;
+}
+
+button:active {
+	transform: translateY(0em);
+}
+
+.lists {
+	display: inline-block;
+	text-align: left;
+	padding: 0 1rem;
+}
+
+li {
+	padding: 0 5px;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 1.5rem;
+	color: rgb(92, 52, 0);
+}
